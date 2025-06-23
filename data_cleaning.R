@@ -1,7 +1,7 @@
 library(tools)
 library(dplyr)
 
-# Path to dat directory
+# Path to data directory
 csv_dir <- "healthy_ride_data"
 
 # Get names of all CSV files in the directory
