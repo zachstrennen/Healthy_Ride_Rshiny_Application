@@ -8,11 +8,11 @@ This repository has three main components:
 
 ### `app.R`
 
-This R file contains the actual structure and feature of the apps. It calls the `data_cleaning.R` file at the start. It also loads all packages used within the application itself.
+This R file contains the actual structure and features of the app. It calls the `data_cleaning.R` file at the start. It also loads all packages used within the application itself. The application features a filtering option, summary statistics of the data, several visualizations, and two modeling templates.
 
 ### `data_cleaning.R`
 
-This R file just contains a few data cleaning scripts that need to be taken care of before the application is run. Its main function is to combine all of the downloaded CSVs into one big dataframe to be analysed. Missing values and improper data types are also dealt with.
+This R file just contains a few data cleaning scripts that need to be taken care of before the application is run. Its main function is to combine all of the downloaded CSVs into one big dataframe to be analyzed. Missing values and improper data types are also dealt with.
 
 ### `healthy_ride_data`
 
