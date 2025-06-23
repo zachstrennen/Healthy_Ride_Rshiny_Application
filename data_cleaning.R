@@ -12,6 +12,7 @@ csv_list <- lapply(csv_files, function(file) read.csv(file, stringsAsFactors = F
 
 # Function to read a CSV and clean its column names
 read_and_clean <- function(file) {
+  # Read in each file
   df <- read.csv(file, stringsAsFactors = FALSE)
   # Make all column names uniform given discrepancies
   names(df) <- tolower(gsub(" ", "_", names(df)))
